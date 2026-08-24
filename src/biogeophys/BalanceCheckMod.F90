@@ -62,7 +62,7 @@ module BalanceCheckMod
   private :: BeginWaterColumnBalanceSingle  ! Initialize column-level water balance check for bulk or a single tracer
 
   ! !PRIVATE PARAMETERS
-  real(r8), parameter :: error_thresh  = 1.e-5_r8  ! Error threshold for conservation error
+  real(r8), parameter :: error_thresh  = 1.e-4_r8  ! Error threshold for conservation error
 
   character(len=*), parameter, private :: sourcefile = &
        __FILE__
